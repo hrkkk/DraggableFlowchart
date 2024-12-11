@@ -1,0 +1,31 @@
+{
+  "groups": [
+    {
+      "name": "图像处理",
+      "icon": ":/res/resource/tool.ico",
+      "items": [
+        {"name": "ReadImage", "text": "图像获取", "icon": ":/res/resource/image_source.png"},
+        {"name": "LensSetting", "text": "镜头调整", "icon": ":/res/resource/image_view.ico"},
+        {"name": "TemplateCrop", "text": "模板裁剪", "icon": ":/res/resource/crop.png"},
+        {"name": "Preprocess", "text": "预处理", "icon": ":/res/resource/color_r.png"}
+      ]
+    },
+    {
+      "name": "检测识别",
+      "icon": ":/res/resource/tool.ico",
+      "items": [
+        {"name": "MatchAndSeparate", "text": "匹配与分割", "icon": ":/res/resource/match.png"},
+        {"name": "Detection", "text": "缺陷检测", "icon": ":/res/resource/classifier.png"}
+      ]
+    },
+    {
+      "name": "运控部分",
+      "icon": ":/res/resource/tool.ico",
+      "items": [
+        {"name": "AutoRangin", "text": "自动测距", "icon": ":/res/resource/measure_calib.png"},
+        {"name": "Mapping", "text": "Mapping", "icon": ":/res/resource/find_circle.png"},
+        {"name": "Scan", "text": "整片扫描", "icon": ":/res/resource/track.png"}
+      ]
+    }
+  ]
+}
